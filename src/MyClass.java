@@ -3,13 +3,12 @@
  */
 
 
-interface MinMax<T extends Comparable<T>> {
+interface MinMax <T extends Comparable<T>> {
     T min();
     T max();
-
 }
 
-class MyClass <T extends Comparable<T>> implements {
+/*class MyClass <T extends Comparable<T>> implements {
     MinMax<T>{
         T[] vals;
 
@@ -49,4 +48,4 @@ class GenIfDemo{
         System.out.println("Max value in chr: " + cob.max());
         System.out.println("Min value in chr: " + cob.min());
     }
-}
+}*/
